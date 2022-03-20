@@ -1,0 +1,54 @@
+POST - LAMBDA PROXY DISABLED
+
+
+CLIENTE
+{
+    "CELULAR": "+55 11 970630955",
+    "EMAIL": "felipe@yajima.com.br",
+    "NOME": "YAJIMA BATISTA",
+    "CPF": "39990055807"
+}
+
+ORDREM
+{
+    "CPF": "00000000002",
+    "VALOR": "100",
+    "PRODUTO1": "MOCHILA",
+    "PRODUTO2": "CADERNO",
+    "DATA": "20201010"
+}
+
+PRODUTO
+{
+    "PRODUTO": "MOCHILA",
+    "MARCA": "HURLEY",
+    "MODELO": "F555",
+    "PRECO": "69"
+}
+
+
+
+PATCH
+
+CLIENTE
+{
+    "CELULAR": "+55 11 970630955",
+    "EMAIL": "felipe@yajima.com.br",
+    "NOME": "YAJIMA BATISTA"
+}
+
+ORDEM
+{
+    "CLIENTE": "00000000002",
+    "VALOR": "100",
+    "DATA": "20201010"
+}
+
+
+PRODUTO
+{
+    "PRODUTO": "MOCHILA",
+    "MARCA": "HURLEY",
+    "MODELO": "F555",
+    "PRECO": "69"
+}
