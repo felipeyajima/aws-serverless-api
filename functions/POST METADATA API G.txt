@@ -6,7 +6,7 @@ CLIENTE
     "CELULAR": "+55 11 970630955",
     "EMAIL": "felipe@yajima.com.br",
     "NOME": "YAJIMA BATISTA",
-    "CPF": "39990055807"
+    "CPF": "00000000000"
 }
 
 ORDREM
