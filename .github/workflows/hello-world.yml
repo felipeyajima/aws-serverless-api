@@ -6,3 +6,18 @@ jobs:
     steps:
       - name: my-step
         run: echo "Hello World!"
+
+
+
+  my-job2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: my-step
+        run: echo "Hello World2!"
+        
+        
+  my-job3:
+    runs-on: ubuntu-latest
+    steps:
+      - name: my-step
+        run: ech "Hello World3!"
