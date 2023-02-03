@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: my-step
-        run: echo "Hello World2!"
+        run: sleep 5 echo "all Done."
         
         
   my-job3:
